@@ -4,5 +4,32 @@ nav{
     height: 740px;
     left: 0px;
     top: 0px;
+    display: flex;
     background: #FFFFE3;
+}
+.paga-logo{
+    width: 118.42px;
+    height: 33px;
+    padding-top: 41.5px;
+    padding-left: 131px;
+}
+.center-menu{
+    display: flex;
+    padding-top: 47.5px;
+    padding-left: 160px;
+    gap: 12%;
+}
+.right-items{
+    display: flex;
+    padding-top: 49px;
+    border: 2px solid black;
+    width: 34px;
+    height: 17px;
+
+}
+.right-items img{
+    width: 34px;
+    height: 17px;
+    padding-left: 94px;
+   
 }
