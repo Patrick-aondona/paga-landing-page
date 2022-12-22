@@ -1,9 +1,4 @@
 nav{
-    position: absolute;
-    width: 1440px;
-    height: 740px;
-    left: 0px;
-    top: 0px;
     display: flex;
     background: #FFFFE3;
 }
@@ -22,14 +17,7 @@ nav{
 .right-items{
     display: flex;
     padding-top: 49px;
-    border: 2px solid black;
-    width: 34px;
-    height: 17px;
-
-}
-.right-items img{
-    width: 34px;
-    height: 17px;
-    padding-left: 94px;
-   
+    padding-left: 1000px;
+    width: 100%;
+    gap: 12%;
 }
