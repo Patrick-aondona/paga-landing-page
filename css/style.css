@@ -62,3 +62,20 @@ nav{
     padding-left: 250px;
     padding-top: 50px;
 }
+.landing{
+    background-color: #FFFFE3;
+    display: flex;
+}
+#landing-text h6{
+    color: #F16725;
+    font-family: poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+   
+}
+#landing-photo{
+    width: 666.28px;
+    height: 289px;
+}
