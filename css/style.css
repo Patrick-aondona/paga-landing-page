@@ -1,6 +1,10 @@
 @font-face {
     font-family: poppins;
-    src: url(fonts/Poppins-Medium.ttf);
+    src: url(../fonts/Poppins-Medium.ttf);
+}
+@font-face {
+    font-family: oxygen;
+    src: url(../fonts/Oxygen-Regular.ttf);
 }
 nav{
     display: flex;
@@ -37,7 +41,7 @@ nav{
     padding-left: 60px;
     width: 37px;
     gap: 1%;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: oxygen;
     text-decoration: none;
     color:  #1E1F38;
 }
@@ -82,7 +86,7 @@ nav{
 }
 .landing-text2{
     color:  #1E1F38;;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: oxygen;
     font-style: normal;
     font-weight: 700;
     font-size: 56px;
@@ -101,7 +105,7 @@ nav{
     color: rgba(30, 31, 56, 0.8);
 }
 .create{
-    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: oxygen;
     font-style: normal;
     font-weight: 700;
     font-size: 14px;
@@ -141,7 +145,7 @@ nav{
     margin: 20% -40% 0 -45%;
 }
 .join{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family:oxygen;
     font-style: normal;
     font-weight: 500;
     font-size: 48px;
@@ -160,11 +164,9 @@ nav{
     padding-left: 173px;
 }
 #features-boxes1{
-   
-    gap: 8.03px;
+    gap: 48px;
     display: flex;
     flex-direction: row;
-    
 }
 #features-boxes1 div{
     background-color: #FFFFE3;
@@ -172,4 +174,35 @@ nav{
     padding: 32px;
     height: 304px;
     border-radius: 30px;
+}
+.feature-text1{    
+    width: 118px;
+    height: 25px;
+    font-family: oxygen;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color:#F16725;
+}
+.feature-text2{
+    width: 269px;
+    height: 60px;
+    font-family: oxygen;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(30, 31, 56, 0.8);
+}
+.feature-text3{
+    width: 83px;
+    height: 20px;
+    font-family:oxygen;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16.0639px;
+    line-height: 122.5%;
+    color: #F16725;
+    text-decoration: none;
 }
