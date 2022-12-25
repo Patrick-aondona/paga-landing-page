@@ -155,15 +155,21 @@ nav{
     padding-right: 688px;
 }
 .features{
-    display: flex;
     width: 1440px;
     height: 1046px;
-    gap: 8.03px;
+    padding-left: 173px;
 }
-#features-boxes{
+#features-boxes1{
+   
+    gap: 8.03px;
+    display: flex;
+    flex-direction: row;
+    
+}
+#features-boxes1 div{
     background-color: #FFFFE3;
     width: 333px;
+    padding: 32px;
     height: 304px;
-    border: 2px solid black;
-    
+    border-radius: 30px;
 }
