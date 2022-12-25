@@ -115,7 +115,7 @@ nav{
 .learn{
     width: 80px;
     height: 21px;
-    font-family: 'Poppins';
+    font-family: poppins;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -127,14 +127,17 @@ nav{
 #landing-photo{
     background-color: #F16725;
     border-radius: 349.459px;
-    width: 31px;
-    height: 31px;
-    padding-left: 300px;
-    padding-top: 300px;
-    margin-top: 20%;
-    margin-left: 10%;
-    border: 2px solid black;
+    width: 431px;
+    height: 431px;
+    padding-left: 50px;
+    padding-top: 30px;
+    margin-top: 25%;
+    margin-left: 7%;
 }
-#landing-photo img{
-    margin: 10% 100% 10% 0%;
+#photo{
+    background-image: url(../images/Web-Mobile_Showcase-min\ 2.png);
+    width: 666.28px;
+    height: 289px;
+    margin: 20% -40% 0 -45%;
+    
 }
