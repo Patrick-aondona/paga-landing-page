@@ -147,10 +147,23 @@ nav{
     font-size: 48px;
     width: 579px;
     height: 118px;
-    line-height: 122.5%;
+    line-height: 59px;
     color: #1E1F38;
-    background-color: #ffffff;
-    padding-top: 80px;
+    padding-top: 150px;
     padding-bottom: 50px;
     padding-left: 160px;
+    padding-right: 688px;
+}
+.features{
+    display: flex;
+    width: 1440px;
+    height: 1046px;
+    gap: 8.03px;
+}
+#features-boxes{
+    background-color: #FFFFE3;
+    width: 333px;
+    height: 304px;
+    border: 2px solid black;
+    
 }
