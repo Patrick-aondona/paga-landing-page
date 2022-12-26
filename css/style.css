@@ -170,13 +170,13 @@ nav{
 }
 #features-boxes1 div{
     background-color: #FFFFE3;
-    width: 333px;
+    width: 260px;
     padding: 32px;
-    height: 304px;
+    height: 250px;
     border-radius: 30px;
 }
 .feature-text1{    
-    width: 118px;
+    width: 148px;
     height: 25px;
     font-family: oxygen;
     font-style: normal;
@@ -187,7 +187,7 @@ nav{
 }
 .feature-text2{
     width: 269px;
-    height: 60px;
+    height: 80px;
     font-family: oxygen;
     font-style: normal;
     font-weight: 400;
