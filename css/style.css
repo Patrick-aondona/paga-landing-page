@@ -175,6 +175,19 @@ nav{
     height: 250px;
     border-radius: 30px;
 }
+#features-boxes2{
+    gap: 48px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 48px;
+}
+#features-boxes2 div{
+    background-color: #FFFFE3;
+    width: 260px;
+    padding: 32px;
+    height: 250px;
+    border-radius: 30px;
+}
 .feature-text1{    
     width: 148px;
     height: 25px;
